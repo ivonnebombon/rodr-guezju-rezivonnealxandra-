@@ -1,0 +1,24 @@
+iniciar-programa
+    inicia-ejecucion
+        {
+        if (facingSouth)
+        {
+        turnleft(); 
+        turnleft();
+        }
+        
+        if (facingEast)
+        {
+        turnleft(); 
+         }
+         
+        if (facingWest)
+        {
+        turnleft(); 
+        turnleft();
+        turnleft();
+        
+       turnoff();
+        
+    termina-ejecucion
+finalizar-programa
