@@ -1,24 +1,31 @@
-iniciar-programa
-    inicia-ejecucion
+class program {
+    program () {
+        // Ejercicio 3 :   Escribe un programa de Karel
+        // que haga que Karel esté orientado al Norte,
+        // desde cualquier dirección inicial, y a 
+        // continuación se apague. Debería terminar en
+        // la misma intersección en la que empezó.
+        
+        if (facingSouth) 
         {
-        if (facingSouth)
-        {
-        turnleft(); 
+        turnleft();
         turnleft();
         }
         
         if (facingEast)
         {
-        turnleft(); 
-         }
+
+        turnleft();
+
+        }
          
-        if (facingWest)
+        if (facingWest) 
         {
-        turnleft(); 
+
         turnleft();
         turnleft();
+        turnleft();
+      turnoff();
+        }
         
-       turnoff();
-        
-    termina-ejecucion
-finalizar-programa
+    }
