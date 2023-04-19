@@ -1,0 +1,24 @@
+class program {
+    program () {
+        // TODO poner codigo aqui
+        While(frontIsClear)
+        {
+        if(nextToABeeper)
+        {
+         pickbeeper();
+         if(notNextToABeeper)
+          {
+           putbeeper();
+           }
+         }
+         else
+         {
+          putbeeper();
+           }
+         {
+          move();
+         }
+        }
+        turnoff();
+    }
+}
